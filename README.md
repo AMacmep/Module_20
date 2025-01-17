@@ -28,7 +28,7 @@ python module_20_1.py
 
 Выполним эти-же вычисления с использованием модуля asyncio
 
-'''    Python
+'''
     import time
     import random
     
