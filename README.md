@@ -1,4 +1,4 @@
-# Сравнение различных подходов к реализации асинхронного программирования: asyncio, threading и multiprocessing: Реализовать асинхронные задачи с использованием asyncio, threading и multiprocessing, сравнить их производительность и уместность для различных типов задач.
+__ Сравнение различных подходов к реализации асинхронного программирования: asyncio, threading и multiprocessing: Реализовать асинхронные задачи с использованием asyncio, threading и multiprocessing, сравнить их производительность и уместность для различных типов задач.__
 
 ## Введение
 
@@ -27,8 +27,8 @@
 python module_20_1.py
 
 Выполним эти-же вычисления с использованием модуля asyncio
-
-'''Python
+'''
+Python
 
 import time
 import random
@@ -48,7 +48,7 @@ def pi_approximation(n):
 
 
 def main():
-    n_values = [10**7, 10**7, 10**6, 10**6]
+    n_values = [10\**7, 10\**7, 10\**6, 10**6]
 
 
     start_time = time.time()
@@ -60,7 +60,7 @@ def main():
     end_time = time.time()
     execution_time = end_time - start_time
     print(f"Общее время выполнения: {execution_time:.2f} секунд")
-if __name__ == "__main__":
+if \__name__ == "\__main__":
     main()
 '''
 Время выполнения вычислений меньше, чем в "синхронном" режиме. Из чего же складывается это время и откуда взялась "экономия"?
