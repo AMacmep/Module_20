@@ -1,3 +1,4 @@
+# Примерное  вычисление числа  "Пи" методом Монте-Карло с применением многопоточности (treading)
 import time
 import random
 import multiprocessing
