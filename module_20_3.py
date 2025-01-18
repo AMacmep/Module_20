@@ -1,3 +1,4 @@
+# Приложение 3. Многопоточное вычисление
 import threading
 import time
 import random
